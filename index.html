@@ -5,24 +5,20 @@
   <meta charset="UTF-8">
   <title>SADoJ Docs</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-
   <meta name="description" content="Documentation de la communauté San Andreas Departement of Justice.">
   <meta name="copyright" content="SADoJ Docs © 2025 - Réalisé par Pierre." />
   <meta name="url" content="https://docs.sadoj-rp.fr/">
-
   <meta property="og:title" content="SADoJ Docs" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://docs.sadoj-rp.fr/" />
   <meta property="og:image" content="https://docs.sadoj-rp.fr/_media/logo_300px.png" />
   <meta property="og:description" content="Documentation de la communauté San Andreas Departement of Justice." />
   <meta name="theme-color" content="#3F51B5">
-
-    <meta name="twitter:card" content="summary_large_image">
-
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-    <link rel="stylesheet" href="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
     title="docsify-darklight-theme" type="text/css" />
 
@@ -31,7 +27,8 @@
   <link rel="icon" type="image/png" href="_media/favicons/favicon-16x16.png" sizes="16x16">
   <link rel="icon" type="image/png" href="_media/favicons/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="_media/favicons/android-192x192.png" sizes="192x192">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -39,6 +36,8 @@
 <body>
   <div id="app">Chargement...</div>
 
+      <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+  
     <script>
     window.$docsify = {
       name: '<img style="vertical-align:middle; margin-right:0.5em;" src="_media/logo_300px.png" alt="" width="75"/>SADoJ Docs',
@@ -67,18 +66,10 @@
         nextText: 'SUIVANT'
       },
       'flexible-alerts': {
-        note: {
-          label: "Remarque"
-        },
-        tip: {
-          label: "Conseil"
-        },
-        warning: {
-          label: "Avertissement"
-        },
-        attention: {
-          label: "Attention"
-        }
+        note: { label: "Remarque" },
+        tip: { label: "Conseil" },
+        warning: { label: "Avertissement" },
+        attention: { label: "Attention" }
       },
       footer: {
         copy: '<span>SADoJ Docs &copy; 2025</span>',
@@ -99,45 +90,28 @@
           accent: '#3498db'
         }
       },
-      // Le plugin EditOnGithub est initialisé ici car il est chargé en amont
       plugins: [
+        // EditOnGithubPlugin est maintenant défini et disponible
         EditOnGithubPlugin.create("https://github.com/pierrearma/sadoj-docs/blob/main/", null, "Éditer sur github")
       ]
     }
   </script>
 
-    
-    <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
-
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-
-    <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-lua.min.js"></script>
-
-    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
-
-    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-
-    <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
-
-    <script src="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/docsify-example-panels"></script>
-
-    <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
-
-    <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.x/dist/plugin.min.js"></script>
-
-    <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script>
-
-    <script src="lastmodified.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-lua.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <script src="//unpkg.com/docsify-gifcontrol/dist/docsify-gifcontrol.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-example-panels"></script>
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.x/dist/plugin.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script>
+  <script src="lastmodified.js"></script>
 
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
